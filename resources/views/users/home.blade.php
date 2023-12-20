@@ -34,7 +34,7 @@
                     @if (Auth::user()->avatar)
                         <img src="{{ Auth::user()->avatar }}" alt="{{ Auth::user()->name }}" class="rounded-circle avatar-md">
                     @else
-                        <i class="fa-solid fa-circle-user text-secondary icon-md"></i>
+                        <i class="fa-solid fa-gear-user text-secondary icon-md"></i>
                     @endif
                 </a>
             </div>
